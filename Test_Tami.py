@@ -9,7 +9,7 @@ TITLE = "Network Sniffer"
 
 # I need to find how to call a scapy function from MENU_ITEMS
 MENU_ITEMS = [
-    ("Run Scapy", ["sudo", "scapy", "-H"]),
+    ("Run Scapy", ["sudo", "scapy", "-H"]), # This will need to be removed or updated as right now it shows that scapy works
     # this is an test function, or what to add if I can link scapy to project
     ("sniff", ["scapy.sniff()"]),
     ("Extra, This can be changed, I can add an extra function", [None]),
