@@ -25,6 +25,17 @@ def draw(stdscr):
     stdscr.refresh()
 
 
+def run_command(stdscr, command):
+    curses.def_prog_mode()
+    curses.endwin()
+    try:
+        subprocess.run(command)
+    finally:
+        curses.reset_prog_mode()
+        stdscr.clear()
+        stdscr.refresh()
+
+
 def main(stdscr):
 
     while True:
