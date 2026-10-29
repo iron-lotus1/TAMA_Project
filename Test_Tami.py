@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import curses
-# subprocess allows commands to pass through a temp terminal. Possible remove if I import scapy
+# subprocess allows commands to pass through a temp terminal. Possible remove if I import scapy as if I end up running the commands it should be from the imported folder
 import subprocess
 import scapy.all as scapy
 
