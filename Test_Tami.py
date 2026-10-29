@@ -2,12 +2,14 @@
 
 import curses
 import subprocess
-# import scapy.all as scapy
+import scapy.all as scapy
 
 TITLE = "Network Sniffer"
 
 MENU_ITEMS = [
     ("Scapy", ["sudo", "scapy", "-H"]),
+    # this is an test function, or what to add if I can link scapy to project
+    # ("sniff", "p=sniff(count=50)"),
     ("Extra, This can be changed, I can add an extra function", [None]),
 ]
 
